@@ -1,28 +1,21 @@
-Brief: Building a single page React application to consume to Brewdog JSON API
+## BrewDog Beers Project
 
-BrewDog Base URL: https://api.punkapi.com/v2/beers/
+A small fun project where I created a single page React application to consume a BrewDog Punk JSON API. This was built in 24-hours. 
 
-Taken from BrewDog Punk API
+You can find the BrewDog Punk Base URL: https://api.punkapi.com/v2/beers/
 
-Collection URL - /beers
-GET - return a list of all the beers in the collection - Index Page
+## Website Architecture: 
+### See all beers
 
-Member URL - /beers/:id
-: is the placeholder
-GET - return one specific beer - Show page
+![picture](src/assets/allbeers.png)
 
-FRONT END PAGES CHECKLIST:
-- Home Page - url="/", the front page of our site with a navbar
+### See a single beer
 
-- Beer Index page = url="/beers" - display all the beers, backend-request-url="GET /beers"
+![picture](src/assets/showbeer.png)
 
-- Beer Show page - url="/beers/:id" - display a single beer, linked from the index page - 
-backend-request-url="GET /beers/:id"
+### Pick a random beer
 
-
-Expand to:
-- Random Picker - urls="/random" - display a single beer at random
-- Beer of the day
+![picture](src/assets/allbeers.png)
 
 
 
