@@ -1,8 +1,10 @@
 ## BrewDog Beers Project
 
-A small fun project where I created a single page React application to consume a BrewDog Punk JSON API. This was built in 24-hours. 
+A small fun project where I created a single page React application to consume a BrewDog Punk JSON API. This project was built in 24-hours. 
 
 You can find the BrewDog Punk Base URL: https://api.punkapi.com/v2/beers/
+
+You can visit the website here: https://brewdog-catalogue.herokuapp.com/
 
 ## Website Architecture: 
 ### See all beers
@@ -15,7 +17,7 @@ You can find the BrewDog Punk Base URL: https://api.punkapi.com/v2/beers/
 
 ### Pick a random beer
 
-![picture](src/assets/allbeers.png)
+![picture](src/assets/randombeer.png)
 
 
 
